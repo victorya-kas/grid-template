@@ -1,0 +1,12 @@
+#page-6 {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "aside head"
+                         "aside main"
+                         "aside main"
+                         "aside foot";
+    grid-template-rows: 50px 1fr 1fr 30px;
+    grid-template-columns: 20% 1fr;
+    grid-gap: 15px;
+}

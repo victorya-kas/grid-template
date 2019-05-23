@@ -1,0 +1,17 @@
+#main {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "col-1-2 col-2-2";
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15px;
+}
+
+#main > * {
+    min-width: 0;
+    padding: 0 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
